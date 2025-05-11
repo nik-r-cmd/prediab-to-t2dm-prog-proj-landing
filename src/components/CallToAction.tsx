@@ -16,9 +16,6 @@ const CallToAction = () => {
               Check Your Risk Now
             </Button>
           </Link>
-          <Button variant="outline" size="lg" className="border-2 border-white text-white hover:bg-white/10 text-lg px-8 py-6 rounded-lg">
-            Learn More About the Science
-          </Button>
         </div>
         
         <div className="flex flex-wrap justify-center gap-6 max-w-3xl mx-auto">
