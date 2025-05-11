@@ -19,8 +19,12 @@ const Footer = () => {
         </div>
         
         <p className="text-xs text-gray-400 text-center mt-8">
-          Disclaimer: This tool is intended for educational purposes only and should not be used as a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition.
-        </p>
+  Disclaimer: This tool is intended for educational purposes only and should not be used as a substitute for professional medical advice, diagnosis, or treatment. 
+  Always consult a licensed healthcare provider for diagnosis or treatment decisions. Diagnostic criteria and intervention strategies are informed by guidelines from the  
+  <a href="https://www.icmr.nic.in" target="_blank" rel="noopener noreferrer" className="underline text-medical-blue"> Indian Council of Medical Research (ICMR)</a> and the  
+  <a href="https://www.who.int" target="_blank" rel="noopener noreferrer" className="underline text-medical-blue"> World Health Organization (WHO)</a>.
+</p>
+
       </div>
     </footer>
   );

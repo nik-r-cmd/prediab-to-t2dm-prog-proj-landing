@@ -32,6 +32,10 @@ const EducationalTabs = () => {
           
           <div className="bg-white rounded-lg shadow-lg p-6 md:p-8">
             <TabsContent value="prediabetes" className="space-y-6">
+              <p className="text-sm text-gray-500 mt-2">
+  Based on diagnostic thresholds recommended by the Indian Council of Medical Research (ICMR) and the World Health Organization (WHO).
+</p>
+
               <h3 className="text-2xl font-bold text-medical-dark">What is Prediabetes?</h3>
               <p className="text-gray-700">
                 Prediabetes is a serious health condition where blood sugar levels are higher than normal, but not yet high enough to be diagnosed as type 2 diabetes. It's a critical warning sign that your body's ability to regulate glucose is compromised.
@@ -71,6 +75,10 @@ const EducationalTabs = () => {
             </TabsContent>
             
             <TabsContent value="t2dm" className="space-y-6">
+              <p className="text-sm text-gray-500 mt-2">
+  Based on diagnostic thresholds recommended by the Indian Council of Medical Research (ICMR) and the World Health Organization (WHO).
+</p>
+
               <h3 className="text-2xl font-bold text-medical-dark">Understanding Type 2 Diabetes</h3>
               <p className="text-gray-700">
                 Type 2 Diabetes is a chronic condition that affects the way your body metabolizes glucose, which is vital for providing energy to your body's cells. With type 2 diabetes, your body either resists the effects of insulin — a hormone that regulates glucose movement into your cells — or doesn't produce enough insulin to maintain normal glucose levels.
@@ -114,6 +122,10 @@ const EducationalTabs = () => {
             </TabsContent>
             
             <TabsContent value="progression" className="space-y-6">
+              <p className="text-sm text-gray-500 mt-2">
+  Based on diagnostic thresholds recommended by the Indian Council of Medical Research (ICMR) and the World Health Organization (WHO).
+</p>
+
               <h3 className="text-2xl font-bold text-medical-dark">The Progression Timeline</h3>
               <p className="text-gray-700">
                 The journey from normal glucose metabolism to type 2 diabetes is typically a gradual process that occurs over years. Understanding this progression can help identify intervention opportunities at each stage.

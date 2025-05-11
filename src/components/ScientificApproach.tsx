@@ -10,6 +10,10 @@ const ScientificApproach = () => {
           <p className="text-gray-700 max-w-3xl mx-auto">
             Our tool is built on rigorous scientific research and advanced machine learning technology to deliver accurate, personalized risk predictions.
           </p>
+          <p className="text-sm text-gray-500 text-center mt-4">
+  Intervention guidelines are derived from ICMR diabetes consensus reports and WHO global reports on noncommunicable diseases.
+</p>
+
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
